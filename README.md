@@ -15,3 +15,6 @@ My main interests are Machine Learning, Mechatronics, Digital Signal Processing,
 
 ### Skills
 * Python
+* C++
+* Verilog
+* MATLAB
