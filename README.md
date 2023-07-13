@@ -4,7 +4,7 @@ Hi! My name is Pariya Palizban
 Electrical Engineering Student
 ------------------------------
 
-I am a Bachelor’s student of Electrical Engineering at SBU
+I am a Bachelor’s student of Electrical Engineering at SBU.</br>
 My main interests are Machine Learning, Mechatronics, Digital Signal Processing, and, Control Theory.
 
 * ✉️  You can contact me at [81pa.pariya@gmail.com](mailto:81pa.pariya@gmail.com)
