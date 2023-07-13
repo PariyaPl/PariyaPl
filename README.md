@@ -30,6 +30,4 @@ I am a Bachelor’s student of Electrical Engineering at SBU
 
 <a href="http://www.github.com/PariyaPl"><img src="https://github-readme-streak-stats.herokuapp.com/?user=PariyaPl&stroke=64748b&background=000000&ring=3382ed&fire=3382ed&currStreakNum=64748b&currStreakLabel=3382ed&sideNums=64748b&sideLabels=64748b&dates=64748b&hide_border=true" /></a>
 
-<a href="http://www.github.com/PariyaPl"><img src="https://github-readme-activity-graph.cyclic.app/graph?username=PariyaPl&bg_color=000000&color=64748b&line=3382ed&point=64748b&area_color=000000&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a>
-
 <a href="https://github.com/PariyaPl" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PariyaPl&langs_count=10&title_color=3382ed&text_color=64748b&icon_color=3382ed&bg_color=000000&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
