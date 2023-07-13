@@ -24,10 +24,5 @@ I am a Bachelor’s student of Electrical Engineering at SBU
 
 ### Badges
 
-<b>My GitHub Stats</b>
-
-<a href="http://www.github.com/PariyaPl"><img src="https://github-readme-stats.vercel.app/api?username=PariyaPl&show_icons=true&hide=&count_private=true&title_color=3382ed&text_color=64748b&icon_color=3382ed&bg_color=000000&hide_border=true&show_icons=true" alt="PariyaPl's GitHub stats" /></a>
-
-<a href="http://www.github.com/PariyaPl"><img src="https://github-readme-streak-stats.herokuapp.com/?user=PariyaPl&stroke=64748b&background=000000&ring=3382ed&fire=3382ed&currStreakNum=64748b&currStreakLabel=3382ed&sideNums=64748b&sideLabels=64748b&dates=64748b&hide_border=true" /></a>
 
 <a href="https://github.com/PariyaPl" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PariyaPl&langs_count=10&title_color=3382ed&text_color=64748b&icon_color=3382ed&bg_color=000000&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
