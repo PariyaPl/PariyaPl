@@ -1,4 +1,4 @@
-Hi 👋 My name is Pariya Palizban
+My name is Pariya Palizban
 ================================
 
 Electrical Engineering Student
