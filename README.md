@@ -6,7 +6,7 @@ Electrical Engineering Student
 
 I am a Bachelor’s student of Electrical Engineering at SBU
 
-* ✉️  You can contact me at [pariya\_pl@yahoo.com](mailto:pariya_pl@yahoo.com)
+* ✉️  You can contact me at [81pa.pariya@gmail.com](mailto:81pa.pariya@gmail.com)
 
 ### Skills
 
