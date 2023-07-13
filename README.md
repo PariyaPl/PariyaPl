@@ -22,8 +22,3 @@ src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/publi
 ### Socials
 
 <p align="left"> <a href="https://discord.com/users/pariyapalizban" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" width="32" height="32" /></a> <a href="https://www.github.com/PariyaPl" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a> <a href="https://www.linkedin.com/in/pariyapalizban" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a></p>
-
-### Badges
-
-
-<a href="https://github.com/PariyaPl" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PariyaPl&langs_count=10&title_color=3382ed&text_color=64748b&icon_color=3382ed&bg_color=000000&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
