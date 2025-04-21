@@ -21,3 +21,7 @@ My main interests are Machine Learning, Mechatronics, Digital Signal Processing,
 * MATLAB
 * C++ 
 * Verilog
+* HTML
+* CSS
+* JavaScript
+* Frontend
