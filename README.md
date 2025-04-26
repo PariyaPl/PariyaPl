@@ -1,7 +1,7 @@
 Hi! My name is Pariya Palizban
 ================================
 
-Electrical Engineering Student
+Electrical(Control) Engineer
 ------------------------------
 
 I have graduated from Electrical Engineering from SBU.</br>
