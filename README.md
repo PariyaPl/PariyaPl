@@ -8,6 +8,7 @@ I have graduated from Electrical Engineering from SBU.</br>
 My main interests are Programming, Machine Learning, Mechatronics, and, Control Theory.</br>
 I am also learning to develope web pages and I like that a lot too; because it triggers my programming skills along with several other of my passions and interests.
 
+--- My personal website
 --- ✉️  You can contact me at [81pa.pariya@gmail.com](mailto:81pa.pariya@gmail.com)  ---
 
 ### Socials
