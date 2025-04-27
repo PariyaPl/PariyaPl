@@ -6,7 +6,7 @@ html {
 body {
   color: rgb(27, 47, 68);
   background: linear-gradient(90deg,  rgb(245, 246, 247),  rgb(189, 211, 219), rgb(245, 246, 247));
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: "Comic Sans MS", "Comic Sans", 'Quicksand', sans-serif;
 }
 
 #navbar {
