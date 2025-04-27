@@ -63,13 +63,11 @@ main {
   }
 
   .info-div {
-    width: 90% !important;
-    order: 1;
+    width: 100% !important;
   }
 
   .img-div {
     width: 60% !important;
-    order: 2;
   }
 
   .image {
