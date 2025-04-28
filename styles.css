@@ -136,7 +136,7 @@ h3 {
   text-align: center;
   min-width: 20rem;
   color: rgb(33, 44, 49);
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: "Comic Sans MS", "Comic Sans", sans-serif;
   font-size: 1rem;
 }
 .inner:hover {
