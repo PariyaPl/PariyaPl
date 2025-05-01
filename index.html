@@ -1,53 +1,274 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="styles.css" rel="stylesheet"/>
-    <title>RPG Creature Search App</title>
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main>
-      <h1 id="title">RPG Creature Search App</h1>
-
-      <div id="search-section">
-        <h2>Search for Creature Name or ID:</h2>
-        <input id="search-input" required>
-        <button id="search-button">Search</button>
+    <nav id="navbar">
+      <a href="#about-me">About Me</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#other">Other</a>
+    </nav>
+    <main id="main">
+      <h1 id="about-me">About Me</h1>
+      <div class="section">
+        <div class="info-div no2">
+          <p>Hi!
+            My name is Pariya Palizban, I have graduated from Shahid Beheshti University (SBU) of Iran in Electrical Engineering. With a GPA of 18.01/20 (3.84/4), I ranked first among 60 students.
+          </p>
+        </div>
+        <div class="info-div no1">
+          <p>My main interests are Programming, Machine Learning, Mechatronics, Control Theory and Modern Control, using Machine Learning and Deep Learning methods. Also, as a personal interest I play Kamancheh, which is an Iranian instrument, and I do Synchronized Swimming. I consider myself a passionate learner and I am very excited about learning new things and developing new ideas through research; especially if my research leads to making industrial improvements. 
+          </p>
+        </div>
+        <figure class="img-div">
+          <img class="image" src="https://imgur.com/iklXLpp.jpg" alt="My Interests">
+        </figure>
       </div>
 
-      <div id="creature-info">
-
-        <div id="info1">
-          <h2><span id="creature-name"></span> <span id="creature-id"></span></h2>
-          <p><span id="weight"></span><br><span id="height"></span></p>
-          <h3><span id="types"></span></h3>
+      <div class="divi"></div>
+      <h1 id="experience">Experience</h1>
+      <div class="section">
+        <div class="info-div">
+          <p>I have experience as a teaching assistant in several courses and I have experience as a member of the IEEE SBU Student Branch. click each of the following for more.
+          </p>
+        </div>
+        <div class="info-div no2 section options">
+          <button class="inner" id="btn-signal">
+            <span class="title">Teaching Assistant</span><br><span>Course: Signals and Systems</span><br><span>two semesters</span>
+          </button> 
+          <p class="experience-info invisible">
+            As a teaching assistant for the signals and systems course I was in charge of holding classes for discussing the related topics further, giving the students related homework, grading homeworks and quizes, and teaching them about the use of MATLAB for this particular course.
+          </p>
+          <button class="inner" id="btn-control">
+            <span class="title">Teaching Assistant</span><br><span>Course: Modern Control Systems</span><br><span>one semester</span>
+          </button> 
+          <p class="experience-info invisible">
+            As a teaching assistant for the modern control systems course I was in charge of holding classes for discussing the related topics further, giving the students related homework, grading homeworks and quizes, and teaching them about the use of MATLAB and simulink for this particular course.
+          </p>
+          <button class="inner" id="btn-math">
+            <span class="title">Teaching Assistant</span><br><span>Course: Engineering Mathematics</span><br><span>two semesters</span>
+          </button> 
+          <p class="experience-info invisible">
+            As a teaching assistant for the engineering mathematics course I was in charge of holding classes for discussing the related topics further, giving the students related homework, grading homeworks and quizes, and teaching them about the use of MATLAB for this particular course.
+          </p>
+          <button class="inner" id="btn-circuits">
+            <span class="title">Teaching Assistant</span><br><span>Course: Logic Circuits</span><br><span>one semester</span>
+          </button> 
+          <p class="experience-info invisible">
+            As a teaching assistant for the logic circuits course I was in charge of giving the students related homework, grading homeworks and quizes, and teaching them verilog for this course.
+          </p>
+          <button class="inner" id="btn-electro">
+            <span class="title">Teaching Assistant</span><br><span>Course: Electromagnetics</span><br><span>one semester</span>
+          </button> 
+          <p class="experience-info invisible">
+            As a teaching assistant for the electromagnetics course I was in charge of holding classes for discussing the related topics further, and grading quizes.
+          </p>
+          <button class="inner" id="ieee-sbu">
+            <span class="title">Vice President</span><br><span>Organization: IEEE SBU Student Branch</span><br><span>two semesters</span>
+          </button> 
+          <p class="experience-info invisible">
+            During the time I was in the Vice President position, my team and I prepered and hosted several courses and webinars.
+          </p>
+        </div>
+      </div>
+      <div class="divi"></div>
+      
+      <h1 id="projects">Projects</h1>
+      <div class="info-div no3 options section">
+        <div class="section">
+          <div class="info-div no3">
+            <p>Here is the list of the projects I have done through my time as a bachelor's student and afterwards. click each of the following for more; I have included my related <span class="certificates">certificates</span> and the <span class="skills">skills</span> for each. </p>
+          </div>
         </div>
 
-        <table id="info2">
-          <thead><tr><th>Base Stats</th><th>Value</th></tr></thead>
-          <tbody>
-            <tr>   <td>HP</td>   <td id="hp"></td>   </tr>
-            <tr>   <td>Attack</td>   <td id="attack"></td>   </tr>
-            <tr>   <td>Defense</td>   <td id="defense"></td> </tr>
-            <tr>   <td>Sp. Attack</td>   <td id="special-attack"></td>   </tr>
-            <tr>   <td>Sp. Defense</td>   <td id="special-defense"></td>   </tr>
-            <tr>   <td>Speed</td>   <td id="speed"></td>   </tr>
-          </tbody>
-        </table>
+        <button class="inner project" >
+          <span class="title">freeCodeCamp Web Development projects</span><br><span>after graduation</span><br>
+        </button> 
+        <div class="invisible prj-section">
+          <p>
+            I complited the first and second course of the freeCodeCamp Web Development and I am now going throught the third. For the first course I complited five <span class="skills">HTML and CSS</span> projects and for the second I did five <span class="skills">javaScript</span> projects. the following includes the list of the projects I did for the courses.
+          </p>
+          <div class="two-parted">
+            <div class="part"><a class="prj-links" href="https://pariyapl.github.io/survey-form/" class="certificates">first course - project 1</a><br>
+              <a class="prj-links" href="https://pariyapl.github.io/The-Person/" class="certificates">first course - project 2</a><br>
+              <a class="prj-links" href="https://pariyapl.github.io/Courses-Overview/" class="certificates">first course - project 3</a><br>
+              <a class="prj-links" href="https://pariyapl.github.io/Project-Steps/" class="certificates">first course - project 4</a><br>
+              <a class="prj-links" href="https://pariyapl.github.io/Overview/" class="certificates">first course - project 5</a><br>
+              <a href="https://freecodecamp.org/certification/Pariya_Palizban/responsive-web-design" class="certificates">HTML & CSS certificate</a>
+            </div>
+            <div class="part">
+              <a class="prj-links" href="https://pariyapl.github.io/Palindrome-Word-check/" class="certificates">second course - project 1</a><br>
+              <a class="prj-links" href="https://pariyapl.github.io/Roman-Numeral-Converter/" class="certificates">second course - project 2</a><br>
+              <a class="prj-links" href="https://pariyapl.github.io/Telephone-Number-Validator/" class="certificates">second course - project 3</a><br>
+              <a class="prj-links" href="https://github.com/PariyaPl/Cash-Register-Project" class="certificates">second course - project 4</a><br>
+              <a class="prj-links" href="https://pariyapl.github.io/RPG-Creature-Search-App/" class="certificates">second course - project 5</a><br>
+              <a href="https://freecodecamp.org/certification/Pariya_Palizban/javascript-algorithms-and-data-structures-v8" class="certificates">javaScript certificate</a>
+            </div>
+          </div>
+        </div>
+        
+        <button class="inner project" >
+          <span class="title">Cheetah Recognition</span><br><span>eighth semester (final project)</span><br>
+        </button> 
+        <div class="invisible prj-section">
+          <p>
+            As my final project I worked on a model for cheetah recognition. For this project I researched through many image recognition papers.
+          </p>
+        </div>
+
+        <button class="inner project">
+          <span class="title">Two Methods for Inverted Pendulum</span><br><span>seventh semester</span><br>
+        </button> 
+        <div class="invisible prj-section">
+          <figure class="img-div">
+            <img class="image" src="https://imgur.com/CExX4uN.jpg" alt="pendulum">
+          </figure>
+          <p class="imagii-info">
+            In my seventh semester I came back to working on the "Inverted Pendulum" project, as a project for two courses, using two different approaches to control this system. This project turned out to be one of the most interesting projects I have worked on during my time at Shahid Beheshti University. The following diagrams show the two different control structures that where applied to the Inverted pendulum.
+          </p>
+          <div class="two-parted">
+            <div class="part">
+              <figure class="approach-img-div">
+                <img class="image" src="https://imgur.com/uwr0A8w.jpg" alt="discription photo">
+              </figure>
+              <p class="approach-imagii-info">
+                For the "Industrial Control" course, we implemented a PID controller on the pendulum. this controller worked quite well. Although the PID coefficients that we used were not exactly the same as the ones that worked in simulation, we had to change them a bit to get better result.
+              </p>
+            </div>
+            <div class="part">
+              <figure class="approach-img-div">
+                <img class="image" src="https://imgur.com/5KEGA2c.jpg" alt="discription photo">
+              </figure>
+              <p class="approach-imagii-info">
+                For the "Modern Control Systems" course we implemented a state feedback controller on the pendulum. The state feedback controller used a state observer to estimate the system's four state. In this case the controller worked as well, although the simulation worked a lot better.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <button class="inner project" >
+          <span class="title">Traffic Signs Recognition (research)</span><br><span>The summer after the sixth term</span><br>
+        </button> 
+        <div class="invisible prj-section">
+          <p>
+            The summer after My Sixth semester, I was an intern at a company in Iran, for which I worked on a research related to the image recognition of traffic signs. Therefore I also studied to gain <a href="https://drive.google.com/file/d/1AbJ-weynq1V9DeLWMT-Hn3D5xH8JsUYO/view" class="certificates">Coursera certificates for Deep Learning</a>. And to come to a better understanding of machine learning algorithms, I also gained Coursera certificates for <a href="https://drive.google.com/file/d/1Fhmu6pJ_3UeFNCZMUGwe__qBCvCwj1-j/view" class="certificates">mathematics for machine learning</a>. Since Python programming language is used in many useful related applications, to make sure about my skills in this programming language, I also gained the <a href="https://drive.google.com/file/d/1qI82ZLc5iuJ481JEvLYy3dR7-o0A8MmG/view" class="certificates">Coursera certificates for Python</a>.
+          </p>
+        </div>
+
+        <button class="inner project" >
+          <span class="title">Inverted Pendulum</span><br><span>fifth semester</span><br>
+        </button> 
+        <div class="invisible prj-section">
+          <figure class="img-div">
+            <img class="image" src="https://imgur.com/YrGoq9q.jpg" alt="the pendulum">
+            <figcaption class="img-caption">the Pendulum</figcaption>
+          </figure>
+          <p class="imagii-info">
+            For the "Fundamentals of mechatronics" course, we made an "Inverted Pendulum" and used an <span class="skills">Arduino</span> board to apply an LQR controller to it. Although I did not consider this project over yet; because the controller did not give the best result. Therefor I came back to working on this project during my seventh semester again.
+          </p>
+        </div>
+
+        <button class="inner project" >
+          <span class="title">Wind Turbine Simulator</span><br><span>sixth semester</span><br>
+        </button> 
+        <div class="invisible prj-section">
+          <p>
+            For the "Digital Control Systems" course, I worked on a project about "controlling the output voltage of a wind turbine simulator" with a teammate. The goal was to make an automatic mode for a turbine simulator setup that was in the lab. We used Arduino to read the output voltage from a ZMPT101B sensor and send it to a PLC by serial communication. in order to control the output voltage and keep it in a safe small range, we designed a PID controller using <span class="skills">NI LabVIEW</span>.
+          </p>
+        </div>
+
+        <button class="inner project" >
+          <span class="title">Apply chance calculator</span><br><span>sixth semester</span><br>
+        </button> 
+        <div class="prj-section invisible">
+          <p>
+            For the "<span class="skills">Machine Learning</span>" course, for which I also gained the related <a href="https://drive.google.com/file/d/1N9TX_csXjVlqNBIa-9aNR31kt4BMI2Vb/view" class="certificates">Coursera certificate</a>, I worked on a supervised regression model about "Apply chance calculator" to students. The programming language I used for this project was <span class="skills">Python</span>, which I initially learned on course offered by the Shahid Beheshti University computer engineering student association and I later took the python courses on Coursera. 
+          </p>
+        </div>
+
+        <button class="inner project" >
+          <span class="title">Half bridge Inverter</span><br><span>fifth semester</span><br>
+        </button> 
+        <div class="prj-section invisible">
+          <figure class="img-div">
+            <img class="image" src="https://imgur.com/roemoRu.jpg" alt="the tuner">
+            <figcaption class="img-caption">The Inverter</figcaption>
+          </figure>
+          <p class="imagii-info">
+            On my fifth semester at the university, I took the "Power Electronics" course for which my team and I made a "Half bridge inverter" as an optional project. To me, the most interesting part of this project was using CodeVision<span class="skills">AVR</span> on Atmega8 to apply PWM and MPWM to the inverter.
+          </p>
+        </div>
+
+        <button class="inner project" >
+          <span class="title">Instrument Tuner</span><br><span>forth semester</span><br>
+        </button> 
+        <div class="prj-section invisible prj-section">
+          <figure class="img-div">
+            <img class="image" src="https://imgur.com/WoXKeKl.jpg" alt="the tuner">
+            <figcaption class="img-caption">The Tuner</figcaption>
+          </figure>
+          <p class="imagii-info">
+            On my fourth semester at the university, I took the "Digital Systems 2" course. As the final optional project for this course, I chose to make an "instrument tuner". This device took the sound and the name of the tunable note in as the input and showed a related pattern as the output. To do this I used an <span class="skills">Arduino</span> Uno board. You can check the Arduino code for this project <a href="https://github.com/PariyaPl/InstrumentTuner">here</a> on my GitHub. 
+          </p>
+        </div>
+
+        <button class="inner project" >
+          <span class="title">Traffic Light System</span><br><span>third semester</span><br>
+        </button> 
+        <div class="prj-section invisible">
+          <p>
+            I learned <span class="skills">Verilog</span> in the "digital logic" course of the university in my third semester. The final optional project for this course was a controller of a "Traffic Light System" in an intersection. You can check the code for this project <a href="https://github.com/PariyaPl/TrafficLightSystem">here</a> on my GitHub. Our professor agreed for me to be the teaching assistant of this course in next semester.
+          </p>
+        </div>
+
+        <button class="inner project" >
+          <span class="title">Bignum Calculator</span><br><span>second semester</span><br>
+        </button> 
+        <div class="prj-section invisible">
+          <p>
+            I learned <span class="skills">C++ programming language</span> in two courses offered by ACECR(Academic Center for Education, Culture and Research) when I was 15 and like all other Electrical Engineering students in our university, I was again taught C++ in the "fundamentals of programming" course in my second term. The final Project of this course was "Bignum Calculator". This calculator was able to use the main operations for numbers up to 100 digits. You can check the code for this project <a href="https://github.com/PariyaPl/BigNumCalculator/blob/main/BigNumPRJ.cpp">here</a> on my GitHub.
+          </p>
+        </div>
 
       </div>
-      
-    </main>
-    <div class="backg lefty no1"></div>
-      <div class="backg lefty no2"></div>
-      <div class="backg lefty no3"></div>
-      <div class="backg lefty no4"></div>
+      <div class="divi"></div>
 
-      <div class="backg righty no5"></div>
-      <div class="backg righty no6"></div>
-      <div class="backg righty no7"></div>
-      <div class="backg righty no8"></div>
+      <h1 id="other">Other</h1>
+        <div class="section other-section">
+          <div class="two-parted">
+            <div class="part">
+              <h3>Kamancheh</h3>
+              <p class="approach-imagii-info">One of my general interests is playing Kamancheh. Kamancheh is an Iranian instrument. I started playing kamancheh when I was 9. I always enjoy music; specially the type of music I can play on my Kamancheh!</p>
+            </div>
+            <div class="part">
+              <h3>Synchronized Swimming</h3>
+              <p class="approach-imagii-info">My other general interest is Synchronized swimming, also known as artistic swimming. I started this sport when I was 8; and since, I have received several certificates from the swimming federation of Iran.</p>
+            </div>
+          </div>
+        </div>
+    </main>
+
+    <div class="gear"> 
+      <div class="tooth"></div>
+      <div class="tooth"></div>
+      <div class="tooth"></div>
+      <div class="tooth"></div>
+      <div class="tooth"></div>
+      <div class="tooth"></div>
+      <div class="tooth"></div>
+      <div class="tooth"></div>
+    </div>
+
+    <div class="leaf"></div>
+    <div class="leaf"></div>
+    <div class="leaf"></div>
+    <div class="leaf"></div>
+
     <script src="script.js"></script>
   </body>
 </html>
