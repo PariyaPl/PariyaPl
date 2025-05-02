@@ -271,6 +271,7 @@ a {
   position: fixed;
   background-color: #bed4dc;
   border-radius: 60%;
+  z-index: -1;
 }
 .cir:nth-of-type(1) {width: 10px; height: 10px; left: 30px;  top: 220px;}
 .cir:nth-of-type(2) {width: 15px; height: 15px;left: 60px;  top: 260px;}
@@ -281,4 +282,5 @@ a {
         border-radius: 0 90% 0 90%; 
         border-left: solid 2px #bed4dc;
         transform-origin: 40px 40px;
-        transform: rotate(30deg);}
+        transform: rotate(30deg);
+        z-index: -1;}
