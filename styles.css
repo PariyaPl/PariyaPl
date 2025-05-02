@@ -218,8 +218,8 @@ a {
 
 .gear {
   position: fixed;
-  top: 20%;
-  left: 5%;
+  top: 110px;
+  left: 45px;
   width: 30px;
   height: 30px;
   border: 20px rgb(189, 211, 219) solid;
@@ -235,7 +235,9 @@ a {
   background: linear-gradient(180deg,  #bed4dc 5%,  #bed4dc 30%);
   top: -35px;
   left: 6px;
+  border-top: solid 2px #70707031;
   transform-origin: 10px 50px;
+  z-index: -2;
 }
 .tooth:nth-child(2)  { transform: rotate(45deg);}
 .tooth:nth-child(3)  { transform: rotate(90deg);}
@@ -247,14 +249,36 @@ a {
 
 .leaf {
   position: fixed;
-  left: 5%;
+  left: 20px;
   width: 30px;
   height: 30px;
   background-color: #bed4dc;
-
+  border-bottom: solid 2px #7070705d;
+  z-index: -1;
 }
 
-.leaf:nth-child(1) {  top: 40%;   border-radius: 90% 0 90% 0;}
-.leaf:nth-child(2) {  top: 40%;  border-radius: 0 90% 0 90%;}
-.leaf:nth-child(3) {  top: 40%;   border-radius: 90% 0 90% 0;}
-.leaf:nth-child(4) {  top: 40%;  border-radius: 0 90% 0 90%;}
+.leaf:nth-of-type(1) { top: 280px; left: 42px; border-radius: 0 90% 0 90%; 
+                      transform-origin: 20px 20px;
+                      transform: rotate(-20deg);
+                      width: 22px;  height: 22px;}
+.leaf:nth-of-type(2) { top: 180px; border-radius: 0 90% 0 90%; }
+.leaf:nth-of-type(3) { top: 220px; left: 60px; border-radius: 90% 0 90% 0; }
+.leaf:nth-of-type(4) { top: 250px; left: 15px; border-radius: 0 90% 0 90%; 
+                       transform-origin: 30px 30px;
+                       transform: rotate(10deg);}
+
+.cir {
+  position: fixed;
+  background-color: #bed4dc;
+  border-radius: 60%;
+}
+.cir:nth-of-type(1) {width: 10px; height: 10px; left: 30px;  top: 220px;}
+.cir:nth-of-type(2) {width: 15px; height: 15px;left: 60px;  top: 260px;}
+.cir:nth-of-type(3) {width: 10px; height: 10px; left: 65px;  top: 280px;}
+.line { position: fixed;
+        left: 40px;  top: 218px; 
+        width: 90px;  height: 90px; 
+        border-radius: 0 90% 0 90%; 
+        border-left: solid 2px #bed4dc;
+        transform-origin: 40px 40px;
+        transform: rotate(30deg);}
