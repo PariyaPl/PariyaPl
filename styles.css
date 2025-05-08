@@ -54,7 +54,9 @@ main {
   justify-content: space-evenly;
   width: 100%;
 }
-
+.other-section {
+  padding-top: 1rem;
+}
 @media (max-width: 800px) {
   .options {
     width: 100;
@@ -155,6 +157,11 @@ h3 {
   color: rgb(60, 81, 90);
   background: linear-gradient(60deg, rgba(226, 181, 202, 0.4), rgba(189, 187, 204, 0.37), rgba(211, 193, 178, 0.4));
 }
+.in-other {
+  font-size: 1.5rem;
+  height: 6rem;
+}
+
 
 #btn-signal {color: rgb(196, 15, 15);}
 #btn-control {color: rgb(201, 135, 12);}
