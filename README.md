@@ -17,6 +17,5 @@ I am also learning to develope web pages and I like that a lot because it trigge
 
 ### Skills
 * HTML, CSS, JavaScript, Frontend
-* Python, Machine Learning 
-* Arduino, AVR, C++
-* MATLAB, Verilog
+* Python, Machine Learning algorithms
+* Arduino, AVR, C++, MATLAB, Verilog
