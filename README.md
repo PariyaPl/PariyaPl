@@ -1,7 +1,7 @@
-Hi! My name is Pariya Palizban
+## Hi! My name is Pariya Palizban
 ================================
 
-Electrical(Control) Engineer & frontend developer
+### Electrical(Control) Engineer & frontend developer
 ------------------------------
 
 I have graduated from Electrical Engineering from SBU.</br>
