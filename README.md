@@ -1,4 +1,4 @@
-## Hi! My name is Pariya Palizban
+Hi! My name is Pariya Palizban
 ================================
 
 ### Electrical(Control) Engineer & frontend developer
