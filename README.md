@@ -1,7 +1,8 @@
 Hi! My name is Pariya Palizban
 ================================
 
-### Electrical(Control) Engineer & frontend developer
+Electrical(Control) Engineer & frontend developer
+------------------------------------
 
 I have graduated from Electrical Engineering from SBU.</br>
 My main interests are Programming, Machine Learning, Mechatronics, and, Control Theory.</br>
