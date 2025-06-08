@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  color: rgb(27, 47, 68);
+  color: rgb(18, 32, 46);
   background: linear-gradient(90deg,  rgb(245, 246, 247),  rgb(189, 211, 219), rgb(245, 246, 247));
   font-family: "Comic Sans MS", "Comic Sans", sans-serif;
 }
@@ -232,7 +232,7 @@ a {
   border: 20px rgb(189, 211, 219) solid;
   border-radius: 50%;
   z-index: -1;
-  animation: spin 50s linear infinite;
+  animation: spin 40s linear infinite;
 }
 
 .tooth {
@@ -291,3 +291,31 @@ a {
         transform-origin: 40px 40px;
         transform: rotate(30deg);
         z-index: -1;}
+
+
+        
+.back-cir {
+  position: fixed;
+  width: 670px;
+  height: 670px;
+  background-color: #f5f6f780;
+  border-radius: 50%;
+  z-index: -4;
+}
+.back-cir:nth-of-type(1) {
+  top: -20rem;
+  left: -25rem;
+}
+.back-cir:nth-of-type(2) {
+  bottom: -20rem;
+  right: -20rem;
+}
+.back-cir:nth-of-type(3) {
+  bottom: -22rem;
+  right: -27rem;
+  background-color: #bed4dc9f;
+}
+.back-cir:nth-of-type(4) {
+  bottom: -23rem;
+  right: -28rem;
+}
