@@ -1,11 +1,12 @@
 Hi! My name is Pariya Palizban
 ================================
 
-Electrical(Control) Engineer & frontend developer
+Data Specialist
 --------------------------------
 
-I have graduated from Electrical Engineering from SBU and I currently study Computer Science at the University of Luxembourg.</br>
-My main interests are Programming and Machine Learning.</br>
+Studying Master's in Computer Science at the university of Luxembourg</br>
+I finished my bachelor’s in Electrical Engineering at Shahid Beheshti University.</br>
+My main interests are Machine Learning, programming and web development. </br>
 
 --- 🚀 Check out [my personal website](https://pariyapl.github.io/PariyaPl/) --- </br>
 --- ✉️  You can contact me at [81pa.pariya@gmail.com](mailto:81pa.pariya@gmail.com) ---
