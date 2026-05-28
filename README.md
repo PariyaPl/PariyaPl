@@ -16,7 +16,7 @@ My main interests are Machine Learning, programming and web development. </br>
 <p align="left"> <a href="https://www.github.com/PariyaPl" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a> <a href="https://www.linkedin.com/in/pariyapalizban" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a> <a href="https://discord.com/users/pariyapalizban" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" width="32" height="32" /></a>  </p>
 
 ### Skills
-* HTML, CSS, JavaScript, Frontend
+* HTML, CSS, JavaScript, Frontend, Android Studio
 * Python, Machine Learning algorithms
-* Unity (For developing VR projects), Android Studio
+* Unity (For developing VR projects)
 * Arduino, AVR, C++, MATLAB, Verilog
