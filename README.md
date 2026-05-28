@@ -1,7 +1,7 @@
 Hi! My name is Pariya Palizban
 ================================
 
-Data Specialist
+Electrical Engineering graduate - Studying Master’s in Computer Science - Data Specialist - Frontend Developer
 --------------------------------
 
 Studying Master's in Computer Science at the university of Luxembourg</br>
@@ -18,4 +18,5 @@ My main interests are Machine Learning, programming and web development. </br>
 ### Skills
 * HTML, CSS, JavaScript, Frontend
 * Python, Machine Learning algorithms
+* Unity (For developing VR projects), Android Studio
 * Arduino, AVR, C++, MATLAB, Verilog
