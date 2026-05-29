@@ -163,12 +163,15 @@ h3 {
 }
 
 
-#btn-signal {color: rgb(196, 15, 15);}
-#btn-control {color: rgb(201, 135, 12);}
-#btn-math {color: rgb(163, 18, 168);}
-#btn-circuits {color: rgb(12, 16, 243);}
-#btn-electro {color: rgb(233, 24, 129);}
-#ieee-sbu {color: rgb(27, 170, 27);}
+.btn-gray {color: rgb(106, 104, 104);}
+.btn-red {color: rgb(196, 15, 15);}
+.btn-orange {color: rgb(201, 135, 12);}
+.btn-purple {color: rgb(163, 18, 168);}
+.btn-blue {color: rgb(12, 16, 243);}
+.btn-light-blue {color: rgb(6, 167, 241);}
+.btn-pink {color: rgb(233, 24, 129);}
+.btn-green {color: rgb(27, 170, 27);}
+.btn-dark-green {color: rgb(1, 149, 100);}
 
 a {
   color: rgb(87, 89, 104);
