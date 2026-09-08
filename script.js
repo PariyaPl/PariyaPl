@@ -84,24 +84,3 @@ window.addEventListener("resize", () => {
   queueCurrentSectionUpdate();
   accordionGrids.forEach(arrangeAccordionCards);
 });
-    } else {
-      link.removeAttribute("aria-current");
-    }
-  });
-}
-
-let updateQueued = false;
-
-function queueCurrentSectionUpdate() {
-  if (updateQueued) return;
-  updateQueued = true;
-
-  window.requestAnimationFrame(() => {
-    updateCurrentSection();
-    updateQueued = false;
-  });
-}
-
-updateCurrentSection();
-window.addEventListener("scroll", queueCurrentSectionUpdate, { passive: true });
-window.addEventListener("resize", queueCurrentSectionUpdate);
