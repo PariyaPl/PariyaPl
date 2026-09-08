@@ -1,7 +1,33 @@
 const sections = [...document.querySelectorAll("main section[id]")];
 const navLinks = [...document.querySelectorAll('.nav-links a[href^="#"]')];
 const siteHeader = document.querySelector(".site-header");
+const accordionGrids = [...document.querySelectorAll(".accordion-grid")];
 
+function arrangeAccordionCards(grid) {
+  const cards = [...grid.children].filter((child) => child.matches("details"));
+
+  cards.forEach((card, index) => {
+    card.style.order = index;
+  });
+
+  if (!window.matchMedia("(min-width: 701px)").matches) return;
+
+  cards.forEach((card, index) => {
+    if (card.open && index % 2 === 1) {
+      card.style.order = index - 1;
+      cards[index - 1].style.order = index;
+    }
+  });
+}
+
+accordionGrids.forEach((grid) => {
+  arrangeAccordionCards(grid);
+  [...grid.children]
+    .filter((child) => child.matches("details"))
+    .forEach((card) => {
+      card.addEventListener("toggle", () => arrangeAccordionCards(grid));
+    });
+});
 
 navLinks.forEach((link) => {
   link.addEventListener("click", (event) => {
@@ -34,6 +60,30 @@ function updateCurrentSection() {
     const isCurrent = link.hash === `#${currentSection.id}`;
     if (isCurrent) {
       link.setAttribute("aria-current", "true");
+    } else {
+      link.removeAttribute("aria-current");
+    }
+  });
+}
+
+let updateQueued = false;
+
+function queueCurrentSectionUpdate() {
+  if (updateQueued) return;
+  updateQueued = true;
+
+  window.requestAnimationFrame(() => {
+    updateCurrentSection();
+    updateQueued = false;
+  });
+}
+
+updateCurrentSection();
+window.addEventListener("scroll", queueCurrentSectionUpdate, { passive: true });
+window.addEventListener("resize", () => {
+  queueCurrentSectionUpdate();
+  accordionGrids.forEach(arrangeAccordionCards);
+});
     } else {
       link.removeAttribute("aria-current");
     }
