@@ -2,6 +2,7 @@ const sections = [...document.querySelectorAll("main section[id]")];
 const navLinks = [...document.querySelectorAll('.nav-links a[href^="#"]')];
 const siteHeader = document.querySelector(".site-header");
 
+
 navLinks.forEach((link) => {
   link.addEventListener("click", (event) => {
     const targetSection = document.querySelector(link.hash);
